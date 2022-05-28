@@ -9,16 +9,16 @@ Return k after placing the final result in the first k slots of nums.
 
 Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
 
-**Custom Judge:**
-int[] nums = [...]; // Input array
-int[] expectedNums = [...]; // The expected answer with correct length
+**Custom Judge:**. 
+int[] nums = [...]; // Input array. 
+int[] expectedNums = [...]; // The expected answer with correct length. 
 
-int k = removeDuplicates(nums); // Calls your implementation
+int k = removeDuplicates(nums); // Calls your implementation. 
 
-assert k == expectedNums.length;
-for (int i = 0; i < k; i++) {
-    assert nums[i] == expectedNums[i];
-}
+assert k == expectedNums.length;  
+for (int i = 0; i < k; i++) {. 
+    assert nums[i] == expectedNums[i];  
+}. 
 
  
 
