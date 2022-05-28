@@ -14,6 +14,7 @@ Custom Judge:
 The judge will test your solution with the following code:
 
 int[] nums = [...]; // Input array
+
 int[] expectedNums = [...]; // The expected answer with correct length
 
 int k = removeDuplicates(nums); // Calls your implementation
@@ -40,8 +41,4 @@ Explanation: Your function should return k = 5, with the first five elements of 
 It does not matter what you leave beyond the returned k (hence they are underscores).
  
 
-Constraints:
 
-1 <= nums.length <= 3 * 104
--100 <= nums[i] <= 100
-nums is sorted in non-decreasing order.
